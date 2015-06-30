@@ -53,6 +53,8 @@ body {
   margin-top: 100px;
   margin-left: 30px;
   margin-right: 30px;
+  background-image: url(part2/dash-horizontal.png);
+  background-repeat: repeat-x;
 }
 
 #part2text h1 {
@@ -78,6 +80,7 @@ body {
   color: brown;
   margin-left: 50px;
   margin-right: 50px;
+  margin-top: 10px;
   text-align: center;
 }
 

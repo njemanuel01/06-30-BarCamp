@@ -1,0 +1,89 @@
+/* Box model fix */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+}
+
+#title {
+  background-color: #2C4947;
+}
+
+#hero {
+  background-color: #536563;
+}
+#aiga {
+  background-color: #536563;
+}
+
+#aiga img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#register-bird img {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#part1text h1 {
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #2C4947;
+  font-family: monospace;
+}
+
+#part1text p {
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #536563;
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#dash {
+  margin-top: 100px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#part2text h1 {
+  color: #2C4947;
+  font-family: monospace;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+#part2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#part2 h3 {
+  color: #709B4B;
+  text-align: center;
+}
+
+#part2 p {
+  color: brown;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+#part2 hr {
+  color: brown;
+  margin-top: 150px;
+  margin-left: 30px;
+  margin-right: 30px;
+}

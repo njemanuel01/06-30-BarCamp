@@ -39,6 +39,7 @@ body {
 .bigmonospace {
   font-size: 26px;
   font-family: monospace;
+  text-align: center;
 }
 
 .blue {

@@ -9,23 +9,21 @@ html {
 
 body {
   margin: 0px;
+  width: 370px;
 }
 
 #title {
   background-color: #2C4947;
+  padding: 5px;
 }
 
 #hero {
   background-color: #536563;
 }
+
 #aiga {
   background-color: #536563;
-}
-
-#aiga img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 5px;
 }
 
 #register-bird img {
@@ -33,50 +31,58 @@ body {
   margin-bottom: 20px;
 }
 
-#part1text h1 {
+.thin1 {
   margin-left: 50px;
   margin-right: 50px;
-  color: #2C4947;
+}
+
+.bigmonospace {
+  font-size: 26px;
   font-family: monospace;
 }
 
-#part1text p {
-  margin-left: 50px;
-  margin-right: 50px;
-  color: #536563;
+.blue {
+  color: #2C4947;
+}
+
+.smallmonospace {
   font-family: monospace;
-  font-size: 14px;
+  font-size: 16px;
+  color: #536563;
   line-height: 20px;
 }
 
-#dash {
-  margin-top: 100px;
-  margin-left: 30px;
-  margin-right: 30px;
-  background-image: url(part2/dash-horizontal.png);
-  background-repeat: repeat-x;
-}
-
-#part2text h1 {
-  color: #2C4947;
-  font-family: monospace;
-  margin-left: 50px;
-  margin-right: 50px;
-  text-align: center;
-}
-
-#part2 img {
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-#part2 h3 {
+.thin2 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#dash {
+  margin-top: 100px;
+  background-image: url(part2/dash-horizontal.png);
+  background-repeat: repeat-x;
+}
+
+.biggreen {
+  font-weight: bolder;
   color: #709B4B;
   text-align: center;
 }
 
-#part2 p {
+hr {
+  color: brown;
+  margin-top: 150px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.brownlist {
   color: brown;
   margin-left: 50px;
   margin-right: 50px;
@@ -84,38 +90,65 @@ body {
   text-align: center;
 }
 
-#part2 hr {
-  color: brown;
-  margin-top: 150px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-#part3 {
+.woodbg {
   background-image: url(part3/wood-bg.png);
   background-repeat: repeat-y;
 }
 
-#part3 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.resize {
   width: 350px;
   padding: 50px;
-  
 }
 
-#part3 ul {
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
+.bigyellow {
+  color: gold;
+  font-size: 30px;
+  font-family: monospace;
+  text-align: center;
+  line-height: 22px;
 }
 
-#part3 li {
+.addresswhite {
+  font-family: Georgia, serif;
+  color: white;
   text-align: center;
 }
 
-#part3 h1 {
-  color: gold;
+.titleswhite {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.parawhite {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+.timewhite {
+  color: white;
+  font-size: 32px;
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+
+.amwhite {
+  color: white;
+  position: relative;
+  top: -60px;
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
+  border-color: brown;
+  border: 5px solid brown;
+  width: 80px;
+  height: 80px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
